@@ -1,0 +1,211 @@
+#principal{
+
+width: 900px;
+height: auto; overflow: hidden;
+border: 1px solid #ff0080;
+margin: auto;
+color: #ff0080;
+background: #000;
+
+}
+
+header{
+width: 900px;
+height: 100px;
+border: 0px solid #000;
+
+
+}
+
+#logo{
+
+width: 300px;
+height: 100px;
+border: 0px solid #000;
+float: left;
+
+}
+  
+ .menu ul {
+
+	width: 500px;
+	height: 50px;
+	border: 1px solid #000;
+	float: right;
+	margin-top: 40px;
+	background: #ff0080;
+ }
+  .menu ul li{
+
+  	list-style: none;
+  	float: right;
+  }
+
+.menu ul li a{
+
+text-decoration: none;
+padding: 10px 15px;
+border: 0px solid #ccc;
+
+color: #fff;
+
+
+}
+
+#slide {
+
+margin-top:20px;
+width: 90px;
+
+
+}
+
+.img {
+
+	margin-top: 20px;
+	width: 550px;
+	float: left;
+	display: flex;
+	transition: 1s
+
+}
+
+
+.categorias {
+
+width: 900px;
+height: auto; overflow: hidden;
+border: 1px solid #000;
+margin top: 10px;
+background: #000;
+color: #ff0080;
+text-align: center;
+
+}
+
+.uno{
+
+	width: 293px;
+	height:500px;
+	border: 1px solid #ff0080;
+	float: left;
+	padding: 2px;
+	text-align: center;
+	
+
+}
+
+.dos {
+
+
+	margin-left: 12px;
+	margin.right:12px; 
+}
+
+#info
+{
+	width: 900px;
+	height: auto;overflow: hidden;
+	border: 1px solid #ff0080
+
+}
+
+#izq{
+	width: 590px;
+	height: 300px;
+	border: 1px solid #ff0080;
+	float:left;
+	text-align: center;
+}
+
+#der{
+
+	width: 250px;
+	height: 300px;
+	border: 1px solid #ff0080;
+	float:right; 
+	text-align: center;
+
+
+}
+
+footer{
+
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+
+width: 600px;
+
+}
+
+.contenedor{
+
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+.contenedor figure{
+
+	position: relative;
+	height: 650px;
+	width: 290px;
+	overflow:hidden;
+	cursor: pointer;
+}
+
+.contenedor figure img{
+
+	width: 100%;
+	height:100%;
+	transition: all 500ms ease-out;
+
+}
+
+.contenedor figure .capa{
+
+	position: absolute;
+	top: 0;
+	width: 100%
+	height:100%;
+	background: rgba(fff, 106, 126, 0.6);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+	opacity: 1;
+	visibility: visible;
+}
+
+.contenedor figure:hover > .capa h1{
+
+	margin-top: 90;
+	margin-bottom: 35px;
+	text-align: center;
+	
+}
+
+.contenedor figure:hover > img{
+	transform: scale(1.3);
+}
+.contenedor figure .capa h1{
+
+
+color: #ff0080;
+font-size: 15px;
+line-height: 1.5;
+width: 100%;
+max-width: 220px
+margin: auto;
+
+}
